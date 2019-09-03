@@ -4,8 +4,40 @@
 	box-sizing: border-box;
 }
 
+p{
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
+}
+
 .clearfix::after{
 	content: "";
 	display: block;
 	clear: both;
+}
+
+.header-left{
+  width: 10vw;
+  height: 8vh;
+  float: left;
+  border: solid 1px;
+}
+.header-center{
+  width: 80vw;
+  height: 8vh;
+  float: left;
+  border: solid 1px;
+}
+.header-right{
+  width: 10vw;
+  height: 8vh;
+  float: left;
+  border: solid 1px;
+}
+.header-title{
+  font-size: 48px;
+  line-height: 8vh;
+  text-align: center;
+}
+
+.contact-background{
+  background-color: black;
 }
