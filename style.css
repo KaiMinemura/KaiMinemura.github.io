@@ -1,7 +1,9 @@
 *{
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: rgb(239, 239, 240);
+  -webkit-appearance: none;
 }
 p{
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", YuGothic, "ヒラギノ角ゴ ProN W3", Hiragino Kaku Gothic ProN, Arial, "メイリオ", Meiryo, sans-serif;
