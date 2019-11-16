@@ -1,115 +1,165 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="author" content="Kai Minemura">
-    <meta name="description" content="Kai Minemura is a programmer and a dj. He write programs with Python, Ruby and C++.">
-    <title>Kai Minemura</title>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon-precomposed" href="./favicon.ico" />
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
-  </head>
-  <body>
-    <!-- header -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Kai Minemura</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#work">Work</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#link">Link</a>
-          </li>
-        </ul>
+
+<!-- config -->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="author" content="Kai Minemura">
+  <meta name="description" content="Kai Minemura is a programmer and a dj. He write programs with Python, Ruby and C++.">
+  <title>Kai Minemura</title>
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon-precomposed" href="./favicon.ico" />
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+  <link rel="stylesheet" href="./bootstrap-social.css">
+</head>
+
+<body>
+
+<!-- header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    <img src="./img/about/profile.jpg" width="30" height="30" class="d-inline-block align-top" alt="">&nbsp;&nbsp;Kai Minemura
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#work">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#link">Link</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- main -->
+<div class="container-fluid">
+  <!-- work -->
+  <h2 id="work" class="shadow p-3 mb-1 bg-light rounded">Work</h2>
+  <div class="row">
+    <!-- genre classification -->
+    <div class="card col-sm col-md-6 col-lg-4">
+      <img src="./img/work/work2.jpg" class="d-block w-100 card-img-top"><br>
+      <video controls class="d-block w-100">
+        <source src="./img/work/work2.MP4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h4 class="card-title">Music Genre Classification with CNN and CRNN</h4>
+        <p class="card-text">Jun. 2019 - Nov. 2019</p>
+        <a href="http://nav.cx/oKOWoDO"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
       </div>
-    </nav>
-    <!-- work -->
-    <div class="container-fluid">
-      <div class="row">
-        <h3 id="work" class="large-caption">WORK</h3>
+    </div>
+    <!-- hiyoura-kun -->
+    <div class="card col-sm col-md-6 col-lg-4">
+      <img src="./img/work/work1.jpg" class="d-block w-100 card-img-top"><br>
+      <video controls class="d-block w-100">
+        <source src="./img/work/work1.mp4" type="video/mp4">
+      </video>
+      <div class="card-body">
+        <h4 class="card-title">Hiyoura-kun</h4>
+        <p class="card-text">Jan. 2019 - Apr. 2019</p>
+        <a href="https://line.me/R/ti/p/%40kfl6500u"><img height="36" border="0" alt="友だち追加" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
       </div>
-      <div class="row">
-        <div class="main-box">
-          <div class="col-sm-4">
-            <h4 class="small-caption">Music Genre Classification with CNN and CRNN (Jun. 2019 - Nov. 2019)</h4>
-            <a href="http://nav.cx/oKOWoDO"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
-          </div>
-          <div class="col-sm-4">
-            <h4 class="small-caption">Hiyoura-kun (Jan. 2019 - Apr. 2019)</h4>
-            <a href="https://line.me/R/ti/p/%40kfl6500u"><img height="36" border="0" alt="友だち追加" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
-          </div>
-          <div class="col-sm-4">
-            <h4 class="small-caption">...</h4>
-          </div>
+    </div>
+  </div>
+  <!-- about -->
+  <h2 id="about" class="shadow p-3 mb-1 bg-light rounded">About</h2>
+    <div class="row">
+      <div class="card col-sm text-center">
+        <h4 class="card-header">Profile</h4>
+        <div class="card-body">
+          <h5 class="card-title">Kai Minemura / 峯村開</h5>
+          <p>
+            <span class="badge badge-pill badge-dark">Programmer</span>
+            <span class="badge badge-pill badge-dark">DJ</span>
+          </p>
+          <img src="./img/about/profile.jpg" class="card-img-top">
+        </div>
+      </div>
+      <div class="card col-sm text-center">
+        <h4 class="card-header">Jobs</h4>
+        <div class="card-body">
+          <h5 class="card-title">Recruit</h5>
+          <p class="card-text">Aug. 2019 - present</p>
+          <p>
+            <span class="badge badge-pill badge-dark">part-time</span>
+            <span class="badge badge-pill badge-dark">事業承継総合センター</span>
+          </p>
+          <h5 class="card-title">Infratop</h5>
+          <p class="card-text">Nov. 2017 - May. 2019</p>
+          <p>
+            <span class="badge badge-pill badge-dark">internship</span>
+            <span class="badge badge-pill badge-dark">mentor</span>
+          </p>
+          <h5 class="card-title">ATEAM</h5>
+          <p class="card-text">Aug. 2018</p>
+          <p>
+            <span class="badge badge-pill badge-dark">summer internship</span>
+            <span class="badge badge-pill badge-dark">development</span>
+          </p>
+        </div>
+      </div>
+      <div class="card col-sm text-center">
+        <h4 class="card-header">Education</h4>
+        <div class="card-body">
+          <h5 class="card-title">Keio University</h5>
+          <p class="card-text">Apr. 2016 - present</p>
+          <p>
+            <span class="badge badge-pill badge-dark">Faculty of Science and Engineering</span>
+            <span class="badge badge-pill badge-dark">Department of Imformation Engineering</span>
+          </p>
+          <h5 class="card-title">Hiroaki Saito Lab</h5>
+          <p class="card-text">Feb. 2019 - present</p>
+          <p>
+            <span class="badge badge-pill badge-dark">Music Information Retrieval</span>
+            <span class="badge badge-pill badge-dark">Deep Learning</span>
+          </p>
         </div>
       </div>
     </div>
-    <!-- about -->
-    <h3 id="about" class="large-caption">ABOUT</h3>
-    <div class="main-box clearfix">
-      <div class="left-box">
-        <h4 class="small-caption">Profile</h4>
-        <p>Kai Minemura / 峯村開<br>
-          <span class="badge badge-pill badge-dark">Programmer</span>
-          <span class="badge badge-pill badge-dark">DJ</span>
-        </p>
-      </div>
-      <div class="center-box">
-        <h4 class="small-caption">Jobs</h4>
-        <p>Infratop (Nov. 2017 - May. 2019)<br>
-          <span class="badge badge-pill badge-dark">internship</span>
-          <span class="badge badge-pill badge-dark">mentor</span>
-        </p>
-        <p>ATEAM (Aug. 2018)<br>
-          <span class="badge badge-pill badge-dark">summer internship</span>
-          <span class="badge badge-pill badge-dark">development</span>
-        </p>
-        <p>Recruit (Aug. 2019 - present)<br>
-          <span class="badge badge-pill badge-dark">part-time</span>
-          <span class="badge badge-pill badge-dark">事業承継総合センター</span>
-        </p>
-      </div>
-      <div class="right-box">
-        <h4 class="small-caption">Education</h4>
-        <p>Keio University (Apr. 2016 - present)<br>
-          <span class="badge badge-pill badge-dark">Faculty of Science and Engineering</span>
-          <span class="badge badge-pill badge-dark">Department of Imformation Engineering</span>
-        </p>
-        <p>Hiroaki Saito Lab (Feb. 2019 - present)<br>
-          <span class="badge badge-pill badge-dark">Music Information Processing</span>
-          <span class="badge badge-pill badge-dark">Deep Learning (CNN, RNN)</span>
-          <span class="badge badge-pill badge-dark">Keras</span>
-          <span class="badge badge-pill badge-dark">Librosa</span>
-        </p>
-      </div>
-    </div>
-    <!-- link -->
-    <div id="link" class="main-box">
-      <div>
-        <a href="https://www.facebook.com/kai.minemura"><img src="./img/link/facebook.png" width="32" height="32"></a>
-        <a href="https://www.instagram.com/kikikaikai12/"><img src="./img/link/instagram.png" width="32" height="32"></a>
-        <a href="https://twitter.com/minekai1213"><img src="./img/link/twitter.svg" width="32" height="32" class="contact-background"></a>
-        <a href="https://music.apple.com/profile/Open_Shell"><img src="./img/link/apple_music.svg" width="32" height="32"></a>
-        <a href="https://soundcloud.com/open_shell"><img src="./img/link/soundcloud.png" width="32" height="32"></a>
-        <a href="https://github.com/KaiMinemura"><img src="./img/link/github.png" width="32" height="32"></a>
-        <a href="https://qiita.com/minekai374"><img src="./img/link/qiita.png" height="32" class="contact-background"></a>
-      </div>
-      <small>&copy; 2019 Kai Minemura.</small>
-    </div>
-    <!-- Bootstrap Javascript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-  </html>
+  </div>
+  <!-- link -->
+  <h2 id="link" class="shadow p-3 mb-1 bg-light rounded">Link</h2>
+  <div>
+    <a class="btn btn-social btn-twitter" href="https://twitter.com/minekai1213">
+      <span class="fab fa-twitter"></span>Twitter
+    </a>
+    <a class="btn btn-social btn-facebook" href="https://www.facebook.com/kai.minemura">
+      <span class="fab fa-facebook-f"></span>Facebook
+    </a>
+    <a class="btn btn-social btn-instagram" href="https://www.instagram.com/kikikaikai12">
+      <span class="fab fa-instagram"></span>Instagram
+    </a>
+    <a class="btn btn-social btn-soundcloud" href="https://soundcloud.com/open_shell">
+      <span class="fab fa-soundcloud"></span>SoundCloud
+    </a>
+    <a class="btn btn-social btn-github" href="https://github.com/KaiMinemura">
+      <span class="fab fa-github"></span>Github
+    </a>
+    <a class="btn btn-social btn-qiita" href="https://qiita.com/minekai374">
+      <span class="fa-stack">
+        <i class="fa fa-search fa-stack-1x fa-inverse fa-2x"></i>
+      </span>Qiita
+    </a>
+    <a class="btn btn-social btn-applemusic" href="https://music.apple.com/profile/Open_Shell">
+      <span class="fab fa-apple"></span>Music
+    </a>
+  </div>
+  <small>&copy; 2019 Kai Minemura.</small>
+  <!-- Bootstrap Javascript -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</div>
+
+</body>
+</html>
   

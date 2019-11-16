@@ -1,0 +1,379 @@
+ /* social */
+.btn-social{
+  position:relative;
+  padding-left:44px;
+  text-align:left;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis
+}
+.btn-social>:first-child{
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:32px;
+  line-height:34px;
+  font-size:1.6em;
+  text-align:center;
+  border-right:1px solid rgba(0,0,0,0.2)
+}
+.btn-social.btn-lg{
+  padding-left:61px
+}
+.btn-social.btn-lg>:first-child{
+  line-height:45px;
+  width:45px;
+  font-size:1.8em
+}
+.btn-social.btn-sm{
+  padding-left:38px
+}
+.btn-social.btn-sm>:first-child{
+  line-height:28px;
+  width:28px;
+  font-size:1.4em
+}
+.btn-social.btn-xs{
+  padding-left:30px
+}
+.btn-social.btn-xs>:first-child{
+  line-height:20px;
+  width:20px;
+  font-size:1.2em
+}
+.btn-social-icon{
+  position:relative;
+  padding-left:44px;
+  text-align:left;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  height:34px;
+  width:34px;
+  padding:0
+}
+.btn-social-icon>:first-child{
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:32px;
+  line-height:34px;
+  font-size:1.6em;
+  text-align:center;
+  border-right:1px solid rgba(0,0,0,0.2)
+}
+.btn-social-icon.btn-lg{
+  padding-left:61px
+}
+.btn-social-icon.btn-lg>:first-child{
+  line-height:45px;
+  width:45px;
+  font-size:1.8em
+}
+.btn-social-icon.btn-sm{
+  padding-left:38px
+}
+.btn-social-icon.btn-sm>:first-child{
+  line-height:28px;
+  width:28px;
+  font-size:1.4em
+}
+.btn-social-icon.btn-xs{
+  padding-left:30px
+}
+.btn-social-icon.btn-xs>:first-child{
+  line-height:20px;
+  width:20px;
+  font-size:1.2em
+}
+.btn-social-icon>:first-child{
+  border:none;
+  text-align:center;
+  width:100% !important
+}
+.btn-social-icon.btn-lg{
+  height:45px;
+  width:45px;
+  padding-left:0;
+  padding-right:0
+}
+.btn-social-icon.btn-sm{
+  height:30px;
+  width:30px;
+  padding-left:0;
+  padding-right:0
+}
+.btn-social-icon.btn-xs{
+  height:22px;
+  width:22px;
+  padding-left:0;
+  padding-right:0
+}
+
+/* facebook */
+.btn-facebook{
+  color:#fff;
+  background-color:#1877f2;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-facebook:focus,.btn-facebook.focus{
+  color:#fff;
+  background-color:#1260c4;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-facebook:hover{
+  color:#fff;
+  background-color:#1260c4;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{
+  color:#fff;
+  background-color:#1260c4;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-facebook:active:hover,.btn-facebook.active:hover,.open>.dropdown-toggle.btn-facebook:hover,.btn-facebook:active:focus,.btn-facebook.active:focus,.open>.dropdown-toggle.btn-facebook:focus,.btn-facebook:active.focus,.btn-facebook.active.focus,.open>.dropdown-toggle.btn-facebook.focus{
+  color:#fff;
+  background-color:#0d4c9e;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-facebook:active,.btn-facebook.active,.open>.dropdown-toggle.btn-facebook{
+  background-image:none
+}
+.btn-facebook.disabled:hover,.btn-facebook[disabled]:hover,fieldset[disabled] .btn-facebook:hover,.btn-facebook.disabled:focus,.btn-facebook[disabled]:focus,fieldset[disabled] .btn-facebook:focus,.btn-facebook.disabled.focus,.btn-facebook[disabled].focus,fieldset[disabled] .btn-facebook.focus{
+  background-color:#1877f2;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-facebook .badge{
+  color:#1877f2;
+  background-color:#fff
+}
+
+/* github */
+.btn-github{
+  color:#fff;
+  background-color:#444;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-github:focus,.btn-github.focus{
+  color:#fff;
+  background-color:#2b2b2b;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-github:hover{
+  color:#fff;
+  background-color:#2b2b2b;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-github:active,.btn-github.active,.open>.dropdown-toggle.btn-github{
+  color:#fff;
+  background-color:#2b2b2b;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-github:active:hover,.btn-github.active:hover,.open>.dropdown-toggle.btn-github:hover,.btn-github:active:focus,.btn-github.active:focus,.open>.dropdown-toggle.btn-github:focus,.btn-github:active.focus,.btn-github.active.focus,.open>.dropdown-toggle.btn-github.focus{
+  color:#fff;
+  background-color:#191919;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-github:active,.btn-github.active,.open>.dropdown-toggle.btn-github{
+  background-image:none
+}
+.btn-github.disabled:hover,.btn-github[disabled]:hover,fieldset[disabled] .btn-github:hover,.btn-github.disabled:focus,.btn-github[disabled]:focus,fieldset[disabled] .btn-github:focus,.btn-github.disabled.focus,.btn-github[disabled].focus,fieldset[disabled] .btn-github.focus{
+  background-color:#444;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-github .badge{
+  color:#444;
+  background-color:#fff
+}
+
+/* instagram */
+.btn-instagram{
+  color:#fff;
+  background-color:#c32aa3;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-instagram:focus,.btn-instagram.focus{
+  color:#fff;
+  background-color:#a6238a;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-instagram:hover{
+  color:#fff;
+  background-color:#a6238a;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-instagram:active,.btn-instagram.active,.open>.dropdown-toggle.btn-instagram{
+  color:#fff;
+  background-color:#a6238a;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-instagram:active:hover,.btn-instagram.active:hover,.open>.dropdown-toggle.btn-instagram:hover,.btn-instagram:active:focus,.btn-instagram.active:focus,.open>.dropdown-toggle.btn-instagram:focus,.btn-instagram:active.focus,.btn-instagram.active.focus,.open>.dropdown-toggle.btn-instagram.focus{
+  color:#fff;
+  background-color:#961d7c;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-instagram:active,.btn-instagram.active,.open>.dropdown-toggle.btn-instagram{
+  background-image:none
+}
+.btn-instagram.disabled:hover,.btn-instagram[disabled]:hover,fieldset[disabled] .btn-instagram:hover,.btn-instagram.disabled:focus,.btn-instagram[disabled]:focus,fieldset[disabled] .btn-instagram:focus,.btn-instagram.disabled.focus,.btn-instagram[disabled].focus,fieldset[disabled] .btn-instagram.focus{
+  background-color:#c32aa3;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-instagram .badge{
+  color:#c32aa3;
+  background-color:#fff
+}
+
+/* soundclous */
+.btn-soundcloud{
+  color:#fff;
+  background-color:#f50;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-soundcloud:focus,.btn-soundcloud.focus{
+  color:#fff;
+  background-color:#c40;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-soundcloud:hover{
+  color:#fff;
+  background-color:#c40;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-soundcloud:active,.btn-soundcloud.active,.open>.dropdown-toggle.btn-soundcloud{
+  color:#fff;
+  background-color:#c40;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-soundcloud:active:hover,.btn-soundcloud.active:hover,.open>.dropdown-toggle.btn-soundcloud:hover,.btn-soundcloud:active:focus,.btn-soundcloud.active:focus,.open>.dropdown-toggle.btn-soundcloud:focus,.btn-soundcloud:active.focus,.btn-soundcloud.active.focus,.open>.dropdown-toggle.btn-soundcloud.focus{
+  color:#fff;
+  background-color:#a83800;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-soundcloud:active,.btn-soundcloud.active,.open>.dropdown-toggle.btn-soundcloud{
+  background-image:none
+}
+.btn-soundcloud.disabled:hover,.btn-soundcloud[disabled]:hover,fieldset[disabled] .btn-soundcloud:hover,.btn-soundcloud.disabled:focus,.btn-soundcloud[disabled]:focus,fieldset[disabled] .btn-soundcloud:focus,.btn-soundcloud.disabled.focus,.btn-soundcloud[disabled].focus,fieldset[disabled] .btn-soundcloud.focus{
+  background-color:#f50;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-soundcloud .badge{
+  color:#f50;
+  background-color:#fff
+}
+
+/* twitter */
+.btn-twitter{
+  color:#fff;
+  background-color:#55acee;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-twitter:focus,.btn-twitter.focus{
+  color:#fff;
+  background-color:#2795e9;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-twitter:hover{
+  color:#fff;
+  background-color:#2795e9;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-twitter:active,.btn-twitter.active,.open>.dropdown-toggle.btn-twitter{
+  color:#fff;
+  background-color:#2795e9;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-twitter:active:hover,.btn-twitter.active:hover,.open>.dropdown-toggle.btn-twitter:hover,.btn-twitter:active:focus,.btn-twitter.active:focus,.open>.dropdown-toggle.btn-twitter:focus,.btn-twitter:active.focus,.btn-twitter.active.focus,.open>.dropdown-toggle.btn-twitter.focus{
+  color:#fff;
+  background-color:#1583d7;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-twitter:active,.btn-twitter.active,.open>.dropdown-toggle.btn-twitter{
+  background-image:none
+}
+.btn-twitter.disabled:hover,.btn-twitter[disabled]:hover,fieldset[disabled] .btn-twitter:hover,.btn-twitter.disabled:focus,.btn-twitter[disabled]:focus,fieldset[disabled] .btn-twitter:focus,.btn-twitter.disabled.focus,.btn-twitter[disabled].focus,fieldset[disabled] .btn-twitter.focus{
+  background-color:#55acee;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-twitter .badge{
+  color:#55acee;
+  background-color:#fff
+}
+
+/* applemusic */
+.btn-applemusic{
+  color:#000;
+  background-color:#F9F6EF;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-applemusic:focus,.btn-applemusic.focus{
+  color:#000;
+  background-color:#e6e1d8;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-applemusic:hover{
+  color:#000;
+  background-color:#e6e1d8;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-applemusic:active,.btn-applemusic.active,.open>.dropdown-toggle.btn-applemusic{
+  color:#000;
+  background-color:#e6e1d8;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-applemusic:active:hover,.btn-applemusic.active:hover,.open>.dropdown-toggle.btn-applemusic:hover,.btn-applemusic:active:focus,.btn-applemusic.active:focus,.open>.dropdown-toggle.btn-applemusic:focus,.btn-applemusic:active.focus,.btn-applemusic.active.focus,.open>.dropdown-toggle.btn-applemusic.focus{
+  color:#000;
+  background-color:#ccc7be;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-applemusic:active,.btn-applemusic.active,.open>.dropdown-toggle.btn-applemusic{
+  background-image:none
+}
+.btn-applemusic.disabled:hover,.btn-applemusic[disabled]:hover,fieldset[disabled] .btn-applemusic:hover,.btn-applemusic.disabled:focus,.btn-applemusic[disabled]:focus,fieldset[disabled] .btn-applemusic:focus,.btn-applemusic.disabled.focus,.btn-applemusic[disabled].focus,fieldset[disabled] .btn-applemusic.focus{
+  background-color:#F9F6EF;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-applemusic .badge{
+  color:#F9F6EF;
+  background-color:#fff
+}
+
+/* qiita */
+.btn-qiita{
+  color:#fff;
+  background-color:#4cb10d;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-qiita:focus,.btn-qiita.focus{
+  color:#fff;
+  background-color:#3d9109;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-qiita:hover{
+  color:#fff;
+  background-color:#3d9109;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-qiita:active,.btn-qiita.active,.open>.dropdown-toggle.btn-qiita{
+  color:#fff;
+  background-color:#3d9109;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-qiita:active:hover,.btn-qiita.active:hover,.open>.dropdown-toggle.btn-qiita:hover,.btn-qiita:active:focus,.btn-qiita.active:focus,.open>.dropdown-toggle.btn-qiita:focus,.btn-qiita:active.focus,.btn-qiita.active.focus,.open>.dropdown-toggle.btn-qiita.focus{
+  color:#fff;
+  background-color:#327807;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-qiita:active,.btn-qiita.active,.open>.dropdown-toggle.btn-qiita{
+  background-image:none
+}
+.btn-qiita.disabled:hover,.btn-qiita[disabled]:hover,fieldset[disabled] .btn-qiita:hover,.btn-qiita.disabled:focus,.btn-qiita[disabled]:focus,fieldset[disabled] .btn-qiita:focus,.btn-qiita.disabled.focus,.btn-qiita[disabled].focus,fieldset[disabled] .btn-qiita.focus{
+  background-color:#4cb10d;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-qiita .badge{
+  color:#4cb10d;
+  background-color:#fff
+}
