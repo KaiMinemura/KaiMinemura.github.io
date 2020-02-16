@@ -381,38 +381,38 @@
 /* google-scholar */
 .btn-google-scholar{
   color:#fff;
-  background-color:#72a2f2;
+  background-color:#4082ee;
   border-color:rgba(0,0,0,0.2)
 }
 .btn-google-scholar:focus,.btn-qiita.focus{
   color:#fff;
-  background-color:#4082ee;
+  background-color:#1364f0;
   border-color:rgba(0,0,0,0.2)
 }
 .btn-google-scholar:hover{
   color:#fff;
-  background-color:#4082ee;
+  background-color:#1364f0;
   border-color:rgba(0,0,0,0.2)
 }
 .btn-google-scholar:active,.btn-qiita.active,.open>.dropdown-toggle.btn-qiita{
   color:#fff;
-  background-color:#4082ee;
+  background-color:#1364f0;
   border-color:rgba(0,0,0,0.2)
 }
 .btn-google-scholar:active:hover,.btn-qiita.active:hover,.open>.dropdown-toggle.btn-qiita:hover,.btn-qiita:active:focus,.btn-qiita.active:focus,.open>.dropdown-toggle.btn-qiita:focus,.btn-qiita:active.focus,.btn-qiita.active.focus,.open>.dropdown-toggle.btn-qiita.focus{
   color:#fff;
-  background-color:#1364f0;
+  background-color:#0c46aa;
   border-color:rgba(0,0,0,0.2)
 }
 .btn-google-scholar:active,.btn-qiita.active,.open>.dropdown-toggle.btn-qiita{
   background-image:none
 }
 .btn-google-scholar.disabled:hover,.btn-qiita[disabled]:hover,fieldset[disabled] .btn-qiita:hover,.btn-qiita.disabled:focus,.btn-qiita[disabled]:focus,fieldset[disabled] .btn-qiita:focus,.btn-qiita.disabled.focus,.btn-qiita[disabled].focus,fieldset[disabled] .btn-qiita.focus{
-  background-color:#72a2f2;
+  background-color:#4082ee;
   border-color:rgba(0,0,0,0.2)
 }
 .btn-google-scholar .badge{
-  color:#72a2f2;
+  color:#4082ee;
   background-color:#fff
 }
 
