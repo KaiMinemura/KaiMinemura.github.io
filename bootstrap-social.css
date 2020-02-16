@@ -302,40 +302,40 @@
   background-color:#fff
 }
 
-/* applemusic */
-.btn-applemusic{
+/* apple-music */
+.btn-apple-music{
   color:#000;
   background-color:#F9F6EF;
   border-color:rgba(0,0,0,0.2)
 }
-.btn-applemusic:focus,.btn-applemusic.focus{
+.btn-apple-music:focus,.btn-applemusic.focus{
   color:#000;
   background-color:#e6e1d8;
   border-color:rgba(0,0,0,0.2)
 }
-.btn-applemusic:hover{
+.btn-apple-music:hover{
   color:#000;
   background-color:#e6e1d8;
   border-color:rgba(0,0,0,0.2)
 }
-.btn-applemusic:active,.btn-applemusic.active,.open>.dropdown-toggle.btn-applemusic{
+.btn-apple-music:active,.btn-applemusic.active,.open>.dropdown-toggle.btn-applemusic{
   color:#000;
   background-color:#e6e1d8;
   border-color:rgba(0,0,0,0.2)
 }
-.btn-applemusic:active:hover,.btn-applemusic.active:hover,.open>.dropdown-toggle.btn-applemusic:hover,.btn-applemusic:active:focus,.btn-applemusic.active:focus,.open>.dropdown-toggle.btn-applemusic:focus,.btn-applemusic:active.focus,.btn-applemusic.active.focus,.open>.dropdown-toggle.btn-applemusic.focus{
+.btn-apple-music:active:hover,.btn-applemusic.active:hover,.open>.dropdown-toggle.btn-applemusic:hover,.btn-applemusic:active:focus,.btn-applemusic.active:focus,.open>.dropdown-toggle.btn-applemusic:focus,.btn-applemusic:active.focus,.btn-applemusic.active.focus,.open>.dropdown-toggle.btn-applemusic.focus{
   color:#000;
   background-color:#ccc7be;
   border-color:rgba(0,0,0,0.2)
 }
-.btn-applemusic:active,.btn-applemusic.active,.open>.dropdown-toggle.btn-applemusic{
+.btn-apple-music:active,.btn-applemusic.active,.open>.dropdown-toggle.btn-applemusic{
   background-image:none
 }
-.btn-applemusic.disabled:hover,.btn-applemusic[disabled]:hover,fieldset[disabled] .btn-applemusic:hover,.btn-applemusic.disabled:focus,.btn-applemusic[disabled]:focus,fieldset[disabled] .btn-applemusic:focus,.btn-applemusic.disabled.focus,.btn-applemusic[disabled].focus,fieldset[disabled] .btn-applemusic.focus{
+.btn-apple-music.disabled:hover,.btn-applemusic[disabled]:hover,fieldset[disabled] .btn-applemusic:hover,.btn-applemusic.disabled:focus,.btn-applemusic[disabled]:focus,fieldset[disabled] .btn-applemusic:focus,.btn-applemusic.disabled.focus,.btn-applemusic[disabled].focus,fieldset[disabled] .btn-applemusic.focus{
   background-color:#F9F6EF;
   border-color:rgba(0,0,0,0.2)
 }
-.btn-applemusic .badge{
+.btn-apple-music .badge{
   color:#F9F6EF;
   background-color:#fff
 }
@@ -375,5 +375,43 @@
 }
 .btn-qiita .badge{
   color:#4cb10d;
+  background-color:#fff
+}
+
+/* google-scholar */
+.btn-google-scholar{
+  color:#fff;
+  background-color:#72a2f2;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-google-scholar:focus,.btn-qiita.focus{
+  color:#fff;
+  background-color:#4082ee;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-google-scholar:hover{
+  color:#fff;
+  background-color:#4082ee;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-google-scholar:active,.btn-qiita.active,.open>.dropdown-toggle.btn-qiita{
+  color:#fff;
+  background-color:#4082ee;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-google-scholar:active:hover,.btn-qiita.active:hover,.open>.dropdown-toggle.btn-qiita:hover,.btn-qiita:active:focus,.btn-qiita.active:focus,.open>.dropdown-toggle.btn-qiita:focus,.btn-qiita:active.focus,.btn-qiita.active.focus,.open>.dropdown-toggle.btn-qiita.focus{
+  color:#fff;
+  background-color:#1364f0;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-google-scholar:active,.btn-qiita.active,.open>.dropdown-toggle.btn-qiita{
+  background-image:none
+}
+.btn-google-scholar.disabled:hover,.btn-qiita[disabled]:hover,fieldset[disabled] .btn-qiita:hover,.btn-qiita.disabled:focus,.btn-qiita[disabled]:focus,fieldset[disabled] .btn-qiita:focus,.btn-qiita.disabled.focus,.btn-qiita[disabled].focus,fieldset[disabled] .btn-qiita.focus{
+  background-color:#72a2f2;
+  border-color:rgba(0,0,0,0.2)
+}
+.btn-google-scholar .badge{
+  color:#72a2f2;
   background-color:#fff
 }

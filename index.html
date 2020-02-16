@@ -32,6 +32,9 @@
         <a class="nav-link" href="#work">Work</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link" href="#publication">Publication</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
@@ -42,90 +45,145 @@
 </nav>
 <!-- main -->
 <div class="container-fluid">
+
   <!-- work -->
   <h2 id="work" class="shadow p-3 mb-1 bg-light rounded">Work</h2>
   <div class="row">
     <!-- genre classification -->
     <div class="card col-sm col-md-6 col-lg-4">
       <img src="./img/work/work2.jpg" class="d-block w-100 card-img-top"><br>
-      <video controls class="d-block w-100">
-        <source src="./img/work/work2.MP4" type="video/mp4">
-      </video>
       <div class="card-body">
         <h4 class="card-title">Music Genre Classification with CNN and CRNN</h4>
         <p class="card-text">Nov. 2019 - Jan. 2020</p>
         <a href="http://nav.cx/oKOWoDO"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal-2">Demo</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal-2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel-2" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel-2">Demo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <video controls class="d-block w-100">
+                  <source src="./img/work/work2.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
     <!-- hiyoura-kun -->
     <div class="card col-sm col-md-6 col-lg-4">
       <img src="./img/work/work1.jpg" class="d-block w-100 card-img-top"><br>
-      <video controls class="d-block w-100">
-        <source src="./img/work/work1.mp4" type="video/mp4">
-      </video>
       <div class="card-body">
         <h4 class="card-title">Hiyoura-kun</h4>
         <p class="card-text">Jan. 2019 - Apr. 2019</p>
         <a href="https://line.me/R/ti/p/%40kfl6500u"><img height="36" border="0" alt="友だち追加" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal-1">Demo</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal-1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel-1" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel-1">Demo</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <video controls class="d-block w-100">
+                  <source src="./img/work/work1.mp4" type="video/mp4">
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+
+  <!-- publication -->
+  <h2 id="publication" class="shadow p-3 mb-1 bg-light rounded">Publication</h2>
+  <div class="row">
+    <div class="card col-sm">
+      <h4 class="card-header">2019
+      </h4>
+      <div class="card-body">
+        <ul>
+          <li>大村英史, 沖貴司, 峯村開, 近藤芽衣, & 北原鉄朗. "第 1 回音楽情報科学萌芽・デモ・議論セッション." 研究報告音楽情報科学 (MUS) 2019.6 (2019): 1-3.</li>
+        </ul>
+      </div>
+      <h4 class="text-center">
+        <a class="btn btn-social btn-google-scholar mt-1 mb-1" href="https://scholar.google.co.jp/citations?user=mMOMhZEAAAAJ&hl=ja">
+          <span class="fas fa-graduation-cap"></span>Google Scholar
+        </a>
+      </h4>
+    </div>
+  </div>
+
   <!-- about -->
   <h2 id="about" class="shadow p-3 mb-1 bg-light rounded">About</h2>
-    <div class="row">
-      <div class="card col-sm text-center">
-        <h4 class="card-header">Profile</h4>
-        <div class="card-body">
-          <h5 class="card-title">Kai Minemura / 峯村開</h5>
-          <p>
-            <span class="badge badge-pill badge-dark">Programmiing</span>
-            <span class="badge badge-pill badge-dark">Music</span>
-          </p>
-          <img src="./img/about/profile.jpg" class="card-img-top">
-        </div>
+  <div class="row">
+    <div class="card col-sm text-center">
+      <h4 class="card-header">Profile</h4>
+      <div class="card-body">
+        <h5 class="card-title">Kai Minemura / 峯村開</h5>
+        <p>
+          <span class="badge badge-pill badge-dark">Programmiing</span>
+          <span class="badge badge-pill badge-dark">Music</span>
+        </p>
+        <img src="./img/about/profile.jpg" class="card-img-top">
       </div>
-      <div class="card col-sm text-center">
-        <h4 class="card-header">Jobs</h4>
-        <div class="card-body">
-          <h5 class="card-title">Recruit</h5>
-          <p class="card-text">Aug. 2019 - present</p>
-          <p>
-            <span class="badge badge-pill badge-dark">part-time</span>
-            <span class="badge badge-pill badge-dark">事業承継総合センター</span>
-          </p>
-          <h5 class="card-title">Infratop</h5>
-          <p class="card-text">Nov. 2017 - May. 2019</p>
-          <p>
-            <span class="badge badge-pill badge-dark">internship</span>
-            <span class="badge badge-pill badge-dark">mentor</span>
-          </p>
-          <h5 class="card-title">ATEAM</h5>
-          <p class="card-text">Aug. 2018</p>
-          <p>
-            <span class="badge badge-pill badge-dark">summer internship</span>
-            <span class="badge badge-pill badge-dark">development</span>
-          </p>
-        </div>
+    </div>
+    <div class="card col-sm text-center">
+      <h4 class="card-header">Jobs</h4>
+      <div class="card-body">
+        <h5 class="card-title">Recruit</h5>
+        <p class="card-text">Aug. 2019 - present</p>
+        <p>
+          <span class="badge badge-pill badge-dark">part-time</span>
+          <span class="badge badge-pill badge-dark">M&A</span>
+        </p>
+        <h5 class="card-title">Infratop</h5>
+        <p class="card-text">Nov. 2017 - May. 2019</p>
+        <p>
+          <span class="badge badge-pill badge-dark">internship</span>
+          <span class="badge badge-pill badge-dark">mentor</span>
+        </p>
+        <h5 class="card-title">ATEAM</h5>
+        <p class="card-text">Aug. 2018</p>
+        <p>
+          <span class="badge badge-pill badge-dark">summer internship</span>
+          <span class="badge badge-pill badge-dark">development</span>
+        </p>
       </div>
-      <div class="card col-sm text-center">
-        <h4 class="card-header">Education</h4>
-        <div class="card-body">
-          <h5 class="card-title">Keio University</h5>
-          <p class="card-text">Apr. 2016 - present</p>
-          <p>
-            <span class="badge badge-pill badge-dark">Faculty of Science and Engineering</span>
-            <span class="badge badge-pill badge-dark">Department of Imformation Engineering</span>
-          </p>
-          <h5 class="card-title">Hiroaki Saito Lab</h5>
-          <p class="card-text">Feb. 2019 - present</p>
-          <p>
-            <span class="badge badge-pill badge-dark">Music Information Retrieval</span>
-            <span class="badge badge-pill badge-dark">Deep Learning</span>
-          </p>
-        </div>
+    </div>
+    <div class="card col-sm text-center">
+      <h4 class="card-header">Education</h4>
+      <div class="card-body">
+        <h5 class="card-title">Keio University</h5>
+        <p class="card-text">Apr. 2016 - present</p>
+        <p>
+          <span class="badge badge-pill badge-dark">Faculty of Science and Engineering</span>
+          <span class="badge badge-pill badge-dark">Department of Imformation Engineering</span>
+        </p>
+        <h5 class="card-title">Hiroaki Saito Lab</h5>
+        <p class="card-text">Feb. 2019 - present</p>
+        <p>
+          <span class="badge badge-pill badge-dark">Music Information Retrieval</span>
+          <span class="badge badge-pill badge-dark">Machine Learning</span>
+        </p>
       </div>
     </div>
   </div>
+
   <!-- link -->
   <h2 id="link" class="shadow p-3 mb-1 bg-light rounded">Link</h2>
   <div class="text-center">
@@ -141,7 +199,7 @@
     <a class="btn btn-social btn-soundcloud mt-1 mb-1" href="https://soundcloud.com/open_shell">
       <span class="fab fa-soundcloud"></span>SoundCloud
     </a>
-    <a class="btn btn-social btn-applemusic mt-1 mb-1" href="https://music.apple.com/profile/Open_Shell">
+    <a class="btn btn-social btn-apple-music mt-1 mb-1" href="https://music.apple.com/profile/Open_Shell">
       <span class="fab fa-apple"></span>Music
     </a>
     <a class="btn btn-social btn-github mt-1 mb-1" href="https://github.com/KaiMinemura">
@@ -153,9 +211,12 @@
       </span>Qiita
     </a>
   </div>
+
+  <!-- footer -->
   <div class="text-center">
       <small>&copy; 2019-2020 Kai Minemura.</small>
   </div>
+
   <!-- Bootstrap Javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
