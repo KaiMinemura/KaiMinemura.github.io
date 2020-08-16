@@ -29,13 +29,13 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link" href="#work">Work</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#publication">Publication</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#link">Link</a>
@@ -45,16 +45,104 @@
 </nav>
 <!-- main -->
 <div class="container-fluid">
+  
+  <!-- about -->
+  <h2 id="about" class="shadow p-3 mb-1 bg-light rounded">About</h2>
+  <div class="row">
+    <div class="card col-sm text-center">
+      <h4 class="card-header">自己紹介</h4>
+      <div class="card-body">
+        <h5 class="card-title">Kai Minemura / 峯村開</h5>
+        <p>
+          <span class="badge badge-pill badge-dark">Programmiing</span>
+          <span class="badge badge-pill badge-dark">Music</span>
+        </p>
+        <img src="./img/about/profile.jpg" class="card-img-top">
+      </div>
+    </div>
+
+    <div class="card col-sm text-center">
+      <h4 class="card-header">学歴</h4>
+      <div class="card-body">
+        <!-- 高校 -->
+        <h5 class="card-title">長野県立長野高校</h5>
+        <p class="card-text">2013/04 ~ 2016/03</p>
+        <!-- 大学 -->
+        <h5 class="card-title">慶應義塾大学 理工学部</h5>
+        <p class="card-text">2016/04 ~ 2020/03</p>
+        <p>
+          <span class="badge badge-pill badge-dark">情報工学科</span>
+          <span class="badge badge-pill badge-dark">コンピュータ・サイエンス</span>
+          <span class="badge badge-pill badge-dark">斎藤博昭研究室</span>
+        </p>
+        <!-- 大学院 -->
+        <h5 class="card-title">慶應義塾大学大学院 理工学研究科</h5>
+        <p class="card-text">2020/04 ~ </p>
+        <p>
+          <span class="badge badge-pill badge-dark">開放環境科学専攻</span>
+          <span class="badge badge-pill badge-dark">音楽情報処理・機械学習</span>
+          <span class="badge badge-pill badge-dark">斎藤博昭研究室</span>
+        </p>
+      </div>
+    </div>
+    
+    <div class="card col-sm text-center">
+      <h4 class="card-header">職歴</h4>
+      <div class="card-body">
+        <h5 class="card-title">Infratop</h5>
+        <p class="card-text">(プログラミングスクール DMM WebCamp)<br>2017/11 - 2019/05</p>
+        <p>
+          <span class="badge badge-pill badge-dark">プログラミング講師</span>
+          <span class="badge badge-pill badge-dark">Webアプリ開発を教える・新人研修を担当</span>
+        </p>
+        <h5 class="card-title">ATEAM</h5>
+        <p class="card-text">2018/08 (3 days)</p>
+        <p>
+          <span class="badge badge-pill badge-dark">短期開発インターン</span>
+          <span class="badge badge-pill badge-dark">チーム開発</span>
+          <span class="badge badge-pill badge-dark">Webアプリのバグ修正・新機能開発</span>
+        </p>
+        <h5 class="card-title">Recruit</h5>
+        <p class="card-text">2019/08 - 現在</p>
+        <p>
+          <span class="badge badge-pill badge-dark">アルバイト(TA)</span>
+          <span class="badge badge-pill badge-dark">事業承継総合センター</span>
+        </p>
+        <h5 class="card-title">Hmcomm</h5>
+        <p class="card-text">2020/02 - 現在</p>
+        <p>
+          <span class="badge badge-pill badge-dark">リサーチインターン</span>
+          <span class="badge badge-pill badge-dark">音声処理・機械学習</span>
+        </p>
+      </div>
+    </div>
+  </div>
 
   <!-- work -->
   <h2 id="work" class="shadow p-3 mb-1 bg-light rounded">Work</h2>
   <div class="row">
+    <!-- ひようら君プロジェクト -->
+    <div class="card col-sm col-md-6 col-lg-4">
+      <img src="./img/work/work3.jpg" class="d-block w-100 card-img-top"><br>
+      <div class="card-body">
+        <h4 class="card-title">ひようら君プロジェクト</h4>
+        <p class="card-text">2020/08 ~ </p>
+        <p>４年以上お世話になった日吉の飲食店に恩返しするために、仲間と３人で飲食店情報を発信するSNSアカウントを運営</p>
+        <a class="btn btn-social btn-instagram mt-1 mb-1" href="https://www.instagram.com/hiyoshi_takeout_hiyourakun/">
+          <span class="fab fa-instagram"></span>Instagram
+        </a>
+        <a class="btn btn-social btn-twitter mt-1 mb-1" href="https://twitter.com/hiyoura_kun">
+          <span class="fab fa-twitter"></span>Twitter
+        </a>
+      </div>
+    </div>
     <!-- genre classification -->
     <div class="card col-sm col-md-6 col-lg-4">
       <img src="./img/work/work2.jpg" class="d-block w-100 card-img-top"><br>
       <div class="card-body">
-        <h4 class="card-title">Music Genre Classification with CNN and CRNN</h4>
-        <p class="card-text">音楽を入力すると10ジャンルの中から上位3つを予測するLINE Botアプリ<br>Nov. 2019 - Jan. 2020</p>
+        <h4 class="card-title">CNNとCRNNモデルによる音楽ジャンル予測</h4>
+        <p class="card-text">2019/11 - 2020/01</p>
+        <p class="card-text">音楽を入力すると10ジャンルの中から上位3つを予測するLINE Botアプリ</p>
         <a href="http://nav.cx/oKOWoDO"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="36" border="0"></a>
         <a class="btn btn-social btn-github mt-1 mb-1" href="https://github.com/minekai12/genre_classification">
           <span class="fab fa-github"></span>Code
@@ -104,8 +192,8 @@
     <div class="card col-sm col-md-6 col-lg-4">
       <img src="./img/work/work1.jpg" class="d-block w-100 card-img-top"><br>
       <div class="card-body">
-        <h4 class="card-title">Hiyoura-kun</h4>
-        <p class="card-text">日吉駅周辺の飲食店をランダムにオススメするLINE Botアプリ<br>Jan. 2019 - Apr. 2019</p>
+        <h4 class="card-title">ひようら君</h4>
+        <p class="card-text">2019/01 - 2019/04<br><br>日吉駅周辺の飲食店をランダムにオススメするLINE Botアプリ</p>
         <a href="https://line.me/R/ti/p/%40kfl6500u"><img height="36" border="0" alt="友だち追加" src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png"></a>
         <a class="btn btn-social btn-github mt-1 mb-1" href="https://github.com/minekai12/hiyoura_kun">
           <span class="fab fa-github"></span>Code
@@ -145,95 +233,18 @@
         </ul>
       </div>
       <h4 class="text-center">
-        <a class="btn btn-social btn-google-scholar mt-1 mb-1" href="https://scholar.google.co.jp/citations?user=mMOMhZEAAAAJ&hl=ja">
-          <span class="fas fa-graduation-cap"></span>Google Scholar
-        </a>
       </h4>
-    </div>
-  </div>
-
-  <!-- about -->
-  <h2 id="about" class="shadow p-3 mb-1 bg-light rounded">About</h2>
-  <div class="row">
-    <div class="card col-sm text-center">
-      <h4 class="card-header">Profile</h4>
-      <div class="card-body">
-        <h5 class="card-title">Kai Minemura / 峯村開</h5>
-        <p>
-          <span class="badge badge-pill badge-dark">Programmiing</span>
-          <span class="badge badge-pill badge-dark">Music</span>
-        </p>
-        <img src="./img/about/profile.jpg" class="card-img-top">
-      </div>
-    </div>
-    <div class="card col-sm text-center">
-      <h4 class="card-header">Jobs</h4>
-      <div class="card-body">
-        <h5 class="card-title">Hmcomm</h5>
-        <p class="card-text">Feb. 2020 - present</p>
-        <p>
-          <span class="badge badge-pill badge-dark">Internship</span>
-          <span class="badge badge-pill badge-dark">Sound</span>
-          <span class="badge badge-pill badge-dark">Machine Learning</span>
-        </p>
-        <h5 class="card-title">Recruit</h5>
-        <p class="card-text">Aug. 2019 - present</p>
-        <p>
-          <span class="badge badge-pill badge-dark">Part-time</span>
-          <span class="badge badge-pill badge-dark">M&A Center</span>
-        </p>
-        <h5 class="card-title">Infratop</h5>
-        <p class="card-text">(DMM WebCamp)<br>Nov. 2017 - May. 2019</p>
-        <p>
-          <span class="badge badge-pill badge-dark">Internship</span>
-          <span class="badge badge-pill badge-dark">Mentor</span>
-        </p>
-        <h5 class="card-title">ATEAM</h5>
-        <p class="card-text">Aug. 2018</p>
-        <p>
-          <span class="badge badge-pill badge-dark">Summer Internship</span>
-          <span class="badge badge-pill badge-dark">Development</span>
-        </p>
-      </div>
-    </div>
-    <div class="card col-sm text-center">
-      <h4 class="card-header">Education</h4>
-      <div class="card-body">
-        <h5 class="card-title">Hiroaki Saito Lab</h5>
-        <p class="card-text">Feb. 2019 - present</p>
-        <p>
-          <span class="badge badge-pill badge-dark">Music Information Retrieval</span>
-          <span class="badge badge-pill badge-dark">Machine Learning</span>
-        </p>
-        <h5 class="card-title">Keio University</h5>
-        <p class="card-text">Apr. 2016 - present</p>
-        <p>
-          <span class="badge badge-pill badge-dark">Faculty of Science and Engineering</span>
-          <span class="badge badge-pill badge-dark">Department of Imformation Engineering</span>
-        </p>
-        <h5 class="card-title">Nagano High School</h5>
-        <p class="card-text">Apr. 2013 - Mar. 2016</p>
-      </div>
     </div>
   </div>
 
   <!-- link -->
   <h2 id="link" class="shadow p-3 mb-1 bg-light rounded">Link</h2>
   <div class="text-center">
-    <a class="btn btn-social btn-twitter mt-1 mb-1" href="https://twitter.com/minekai1213">
-      <span class="fab fa-twitter"></span>Twitter
-    </a>
     <a class="btn btn-social btn-facebook mt-1 mb-1" href="https://www.facebook.com/kai.minemura">
       <span class="fab fa-facebook-f"></span>Facebook
     </a>
-    <a class="btn btn-social btn-instagram mt-1 mb-1" href="https://www.instagram.com/kikikaikai12">
-      <span class="fab fa-instagram"></span>Instagram
-    </a>
-    <a class="btn btn-social btn-soundcloud mt-1 mb-1" href="https://soundcloud.com/open_shell">
-      <span class="fab fa-soundcloud"></span>SoundCloud
-    </a>
-    <a class="btn btn-social btn-apple-music mt-1 mb-1" href="https://music.apple.com/profile/Open_Shell">
-      <span class="fab fa-apple"></span>Music
+    <a class="btn btn-social btn-google-scholar mt-1 mb-1" href="https://scholar.google.co.jp/citations?user=mMOMhZEAAAAJ&hl=ja">
+      <span class="fas fa-graduation-cap"></span>Google Scholar
     </a>
     <a class="btn btn-social btn-github mt-1 mb-1" href="https://github.com/minekai12">
       <span class="fab fa-github"></span>Github
@@ -243,6 +254,18 @@
         <i class="fa fa-search fa-stack-1x fa-inverse fa-2x"></i>
       </span>Qiita
     </a>
+    <!-- <a class="btn btn-social btn-twitter mt-1 mb-1" href="https://twitter.com/minekai1213">
+      <span class="fab fa-twitter"></span>Twitter
+    </a> -->
+    <!-- <a class="btn btn-social btn-instagram mt-1 mb-1" href="https://www.instagram.com/kikikaikai12">
+      <span class="fab fa-instagram"></span>Instagram
+    </a> -->
+    <!-- <a class="btn btn-social btn-soundcloud mt-1 mb-1" href="https://soundcloud.com/open_shell">
+      <span class="fab fa-soundcloud"></span>SoundCloud
+    </a> -->
+    <!-- <a class="btn btn-social btn-apple-music mt-1 mb-1" href="https://music.apple.com/profile/Open_Shell">
+      <span class="fab fa-apple"></span>Music
+    </a> -->
   </div>
 
   <!-- footer -->
